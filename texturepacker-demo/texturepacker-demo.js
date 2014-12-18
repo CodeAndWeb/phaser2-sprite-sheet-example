@@ -11,8 +11,7 @@ window.onload = function() {
 
     function create () {
 
-        var background = game.add.sprite(game.world.centerX, game.world.centerY, 'cityscene', 'background');
-        background.anchor.setTo(0.5, 0.5);
+        var background = game.add.sprite(0, 0, 'cityscene', 'background');
 
         capguy = game.add.sprite(0, 180, 'cityscene', 'capguy/walk/0001');
         capguy.scale.setTo(0.5,0.5);
