@@ -10,75 +10,75 @@
 },
 "capguy/walk/0001":
 {
-	"frame": {"x":965,"y":2,"w":156,"h":314},
+	"frame": {"x":967,"y":2,"w":158,"h":316},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":16,"y":4,"w":156,"h":314},
+	"spriteSourceSize": {"x":15,"y":3,"w":158,"h":316},
 	"sourceSize": {"w":187,"h":324}
 },
 "capguy/walk/0002":
 {
-	"frame": {"x":1836,"y":2,"w":166,"h":301},
+	"frame": {"x":1850,"y":2,"w":168,"h":303},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":1,"y":9,"w":166,"h":301},
+	"spriteSourceSize": {"x":0,"y":8,"w":168,"h":303},
 	"sourceSize": {"w":187,"h":324}
 },
 "capguy/walk/0003":
 {
-	"frame": {"x":1543,"y":2,"w":150,"h":305},
+	"frame": {"x":1553,"y":2,"w":152,"h":307},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":27,"y":3,"w":150,"h":305},
+	"spriteSourceSize": {"x":26,"y":2,"w":152,"h":307},
 	"sourceSize": {"w":187,"h":324}
 },
 "capguy/walk/0004":
 {
-	"frame": {"x":1695,"y":2,"w":139,"h":304},
+	"frame": {"x":1707,"y":2,"w":141,"h":306},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":43,"y":2,"w":139,"h":304},
+	"spriteSourceSize": {"x":42,"y":1,"w":141,"h":306},
 	"sourceSize": {"w":187,"h":324}
 },
 "capguy/walk/0005":
 {
-	"frame": {"x":1269,"y":2,"w":137,"h":309},
+	"frame": {"x":1275,"y":2,"w":139,"h":311},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":34,"y":4,"w":137,"h":309},
+	"spriteSourceSize": {"x":33,"y":3,"w":139,"h":311},
 	"sourceSize": {"w":187,"h":324}
 },
 "capguy/walk/0006":
 {
-	"frame": {"x":1408,"y":2,"w":133,"h":309},
+	"frame": {"x":1416,"y":2,"w":135,"h":311},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":30,"y":9,"w":133,"h":309},
+	"spriteSourceSize": {"x":29,"y":8,"w":135,"h":311},
 	"sourceSize": {"w":187,"h":324}
 },
 "capguy/walk/0007":
 {
-	"frame": {"x":1123,"y":2,"w":144,"h":312},
+	"frame": {"x":1127,"y":2,"w":146,"h":314},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":33,"y":3,"w":144,"h":312},
+	"spriteSourceSize": {"x":32,"y":2,"w":146,"h":314},
 	"sourceSize": {"w":187,"h":324}
 },
 "capguy/walk/0008":
 {
-	"frame": {"x":804,"y":2,"w":159,"h":317},
+	"frame": {"x":804,"y":2,"w":161,"h":319},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":23,"y":2,"w":159,"h":317},
+	"spriteSourceSize": {"x":22,"y":1,"w":161,"h":319},
 	"sourceSize": {"w":187,"h":324}
 }},
 "meta": {
 	"app": "http://www.codeandweb.com/texturepacker",
 	"version": "1.0",
 	"image": "cityscene.png",
-	"format": "RGBA8888",
-	"size": {"w":2004,"h":404},
+	"format": "INDEXED",
+	"size": {"w":2020,"h":404},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:b5528e3ef707ade2a6f47fa445118d9f:fed0f696c0a1349f4c5839d5f65ab643:292542e6853f316339413b9243f95b10$"
+	"smartupdate": "$TexturePacker:SmartUpdate:3f95b1feed2fbfc4385b49348c54e958:fed0f696c0a1349f4c5839d5f65ab643:292542e6853f316339413b9243f95b10$"
 }
 }

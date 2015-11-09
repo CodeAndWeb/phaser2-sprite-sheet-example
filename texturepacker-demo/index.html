@@ -6,6 +6,36 @@
         <script src="phaser.min.js"></script>
     </head>
     <body>
-	    <script src="texturepacker-demo.js"></script>
+        <script>
+			window.onload = function() {
+
+			    var game = new Phaser.Game(800, 400, Phaser.AUTO, '', { preload: preload, create: create, update: update });
+
+			    var capguy;
+
+			    function preload () {
+			        game.load.atlasJSONHash('cityscene', 'cityscene.png', 'cityscene.json');
+			    }
+
+			    function create () {
+			        var background = game.add.sprite(0, 0, 'cityscene', 'background');
+
+			        capguy = game.add.sprite(0, 180, 'cityscene', 'capguy/walk/0001');
+			        capguy.scale.setTo(0.5,0.5);
+
+			        capguy.animations.add('walk', Phaser.Animation.generateFrameNames('capguy/walk/', 1, 8, '', 4), 10, true, false);
+			        capguy.animations.play('walk');
+			    }
+
+			    function update() {
+			        capguy.x += 3;
+			        if(capguy.x > 800)
+			        {
+			            capguy.x = -50;
+			        }
+			    }
+
+			};
+        </script>
     </body>
 </html>
