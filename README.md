@@ -1,7 +1,7 @@
 Phaser sprite sheet optimization tutorial
 =========================================
 
-The complete tutorial is available from here: [Creating sprite sheets for Phaser](https://www.codeandweb.com/blog/2014/12/17/creating-spritesheets-for-phaser-with-texturepacker)
+The complete tutorial is available here: [Creating sprite sheets for Phaser 2](https://www.codeandweb.com/texturepacker/tutorials/creating-spritesheets-for-phaser-with-texturepacker)
 
 Content:
 

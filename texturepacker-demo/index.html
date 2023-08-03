@@ -7,35 +7,37 @@
     </head>
     <body>
         <script>
-			window.onload = function() {
 
-			    var game = new Phaser.Game(800, 400, Phaser.AUTO, '', { preload: preload, create: create, update: update });
+            window.onload = function() {
 
-			    var capguy;
+                var game = new Phaser.Game(800, 400, Phaser.AUTO, '', { preload: preload, create: create, update: update });
 
-			    function preload () {
-			        game.load.atlasJSONHash('cityscene', 'cityscene.png', 'cityscene.json');
-			    }
+                var capguy;
 
-			    function create () {
-			        var background = game.add.sprite(0, 0, 'cityscene', 'background');
+                function preload () {
+                    game.load.atlasJSONHash('cityscene', 'cityscene.png', 'cityscene.json');
+                }
 
-			        capguy = game.add.sprite(0, 180, 'cityscene', 'capguy/walk/0001');
-			        capguy.scale.setTo(0.5,0.5);
+                function create () {
+                    var background = game.add.sprite(0, 0, 'cityscene', 'background');
 
-			        capguy.animations.add('walk', Phaser.Animation.generateFrameNames('capguy/walk/', 1, 8, '', 4), 10, true, false);
-			        capguy.animations.play('walk');
-			    }
+                    capguy = game.add.sprite(0, 180, 'cityscene', 'capguy/walk/0001');
+                    capguy.scale.setTo(0.5,0.5);
 
-			    function update() {
-			        capguy.x += 3;
-			        if(capguy.x > 800)
-			        {
-			            capguy.x = -50;
-			        }
-			    }
+                    capguy.animations.add('walk', Phaser.Animation.generateFrameNames('capguy/walk/', 1, 8, '', 4), 10, true, false);
+                    capguy.animations.play('walk');
+                }
 
-			};
+                function update() {
+                    capguy.x += 3;
+                    if(capguy.x > 800)
+                    {
+                        capguy.x = -50;
+                    }
+                }
+
+            };
+
         </script>
     </body>
 </html>
